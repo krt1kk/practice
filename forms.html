@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_form</title>
+</head>
+<body>
+    <form action="https://submit-form.com/UaxZ9pa6m" method="POST">
+        <fieldset>
+            <h1 align="center">Student Registration Form</h1>
+            <p align="center">Please fill the details below to register.</p><hr>
+            <label for="fname"><b>Full Name<font color="red">*</font></b></label><br>
+            <input type="text" id="fname" name="fname" required placeholder="Enter your full name" size="30" autofocus><br><br>
+            <label for="email"><b>Email<font color="red">*</font></b></label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address" size="30"><br><br>
+            <label for="password"><b>Password<font color="red">*</font></b></label><br>
+            <input type="password" id="password" name="password" required placeholder="Enter your password" size="30"><br><br>
+            <label for="DOB"><b>Date of Birth<font color="red">*</font></b></label><br>
+            <input type="date" id="DOB" name="DOB" required size="30"><br><br>
+            <label for="gender"><b>Gender<font color="red">*</font></b></label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" required>
+            <label for="other">Other</label><br><br>
+            <label for="course"><b>Course<font color="red">*</font></b></label><br>
+            <select id="course" name="course" required>
+                <option value="">Select your course</option>
+                <option value="CSE">CSE</option>
+                <option value="CSE (AI/ML)">CSE (AI/ML)</option>
+                <option value="Robotics">Robotics</option>
+               <option value="AI/ML">AI/ML</option>
+            </select><br><br><br>
+            <label for="subjects"><b>Subjects Interseted In <font color="red">*</font></b></label><br><br>
+            <input type="checkbox" id="Web" name="subjects" value="Web">
+            <label for="Web">Web Development</label><br>
+             <input type="checkbox" id="C++" name="subjects" value="C++">
+            <label for="C++">C++</label><br>
+             <input type="checkbox" id="Python" name="subjects" value="Python">
+            <label for="Python">Python</label><br>
+             <input type="checkbox" id="AI" name="subjects" value="AI">
+            <label for="AI">AI</label><br><br>
+            <label for="phone"><b>Phone Number<font color="red">*</font></b></label><br>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" size="30"><br><br>
+            <label for="address"><b>Address<font color="red">*</font></b></label><br>
+            <textarea id="address" name="address" required placeholder="Enter your address" rows="4" cols="40"></textarea><br><br>
+            <label for="photo"><b>Upload Photo <font color="red">*</font></b></label><br>
+            <input type="file" id="photo" name="photo" required><br><br>
+            <label for="age"><b>Age<font color="red">*</font></b></label><br>
+            <input type="number" id="age" name="age" required placeholder="Enter your age" size="30"><br><br>
+            <label for="stime"><b>Preferred Study Time<font color="red">*</font></b></label><br>
+            <input type="time" id="stime" name="stime" required><br><br>
+            <label for="website"><b>Personal Website<font color="red">*</font></b></label><br>
+            <input type="url" id="website" name="website" required placeholder="https://example.com" size="30"><br><br>
+            <label for="intro"><b>Short Introduction<font color="red">*</font></b></label><br>
+            <textarea id="intro" name="intro" required placeholder="Tell us something about yourself....." rows="4" cols="40"></textarea><br><br>
+            <label for="submit"></label>
+            <input type="submit" id="submit" name="submit" value="Submit" bgcolor="blue">
+            <label for="reset"></label>
+            <input type="reset" id="reset" name="reset" value="Reset">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
