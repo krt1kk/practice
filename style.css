@@ -39,8 +39,8 @@ label {
 input,
 select,
 textarea {
-    width: 100%;
-    max-width: 420px;
+    width: 120%;
+    max-width: 400px;
     padding: 10px 12px;
     margin-bottom: 12px;
     border: 1px solid #c7d2df;
